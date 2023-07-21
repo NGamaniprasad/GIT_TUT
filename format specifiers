@@ -3,7 +3,7 @@ age = 30
 height = 6.15
 
 # Integer format specifiers
-print("Age: %d" % age)               # Output: Age: 30
+print("Age: %d" % age)               # Output: Age: 3
 print("Age: {:d}".format(age))       # Output: Age: 30
 
 # Floating-point format specifiers
