@@ -1,0 +1,35 @@
+name = "John"
+age = 30
+height = 6.15
+
+# Integer format specifiers
+print("Age: %d" % age)               # Output: Age: 30
+print("Age: {:d}".format(age))       # Output: Age: 30
+
+# Floating-point format specifiers
+print("Height: %.2f" % height)       # Output: Height: 6.15
+print("Height: {:.2f}".format(height))  # Output: Height: 6.15
+
+# String format specifiers
+print("Name: %s" % name)             # Output: Name: John
+print("Name: {:s}".format(name))     # Output: Name: John
+
+# Width and alignment
+print("{:10} | {:^10} | {:<10}".format("Left", "Center", "Right"))
+# Output:   Left     |  Center   | Right
+
+# Hexadecimal, Octal, and Binary format specifiers
+num = 42
+print("Hex: %x" % num)               # Output: Hex: 2a
+print("Oct: %o" % num)               # Output: Oct: 52
+print("Bin: %b" % num)               # Output: Bin: 101010
+
+# Floating-point scientific notation
+value = 123456789.123456789
+print("Scientific: %e" % value)      # Output: Scientific: 1.234568e+08
+print("Scientific: {:.2e}".format(value))  # Output: Scientific: 1.23e+08
+
+# Truncate string
+long_string = "This is a very long string."
+print("Truncated: %.10s" % long_string)     # Output: Truncated: This is a v
+print("Truncated: {:.10s}".format(long_string))  # Output: Truncated: This is a v
