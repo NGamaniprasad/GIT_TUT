@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'pass.css' %}">
+</head>
+<body>
+  <h1>List of Items</h1>
+
+  <fieldset>
+      <legend>Personal information:</legend>
+      <form action="{% url 'fine' %}" method="POST">
+          {% csrf_token %}
+          <label for="fname">F_Name:</label>
+          <input type="text" name="fname" id="fname" placeholder="Gamani" required><br>
+          <label for="lname">L_name:</label>
+          <input type="text" name="lname" id="lname" placeholder="prasad" required><br>
+          <label for="location">Location</label>
+          <input type="text" name="location" id="location" placeholder="palamaner" required><br>
+          <label for="tel" >Tel_number:</label>
+          <input type="tel" name="tel" id="tel" pattern="[0-9]{10}" required><br>
+          <label for="pd">Password:</label>
+          <input type="password" name="pd" id="pd" required><br>
+          <input type="submit" value="Submit">
+      </form>
+  </fieldset>
+</body>
+</html>

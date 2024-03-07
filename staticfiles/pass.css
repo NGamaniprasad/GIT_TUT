@@ -1,0 +1,74 @@
+/* Style the fieldset */
+fieldset {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+
+/* Style the legend */
+legend {
+  font-weight: bold;
+}
+
+/* Style labels and inputs */
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%; /* Make inputs fill the width of their container */
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Change to your preferred color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Change to your preferred color */
+}
+/* Style the fieldset */
+fieldset {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px; /* Adjust width as needed */
+}
+
+/* Style the legend */
+legend {
+  font-weight: bold;
+}
+
+/* Style labels and inputs */
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%; /* Make inputs fill the width of their container */
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Change to your preferred color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Change to your preferred color */
+}
